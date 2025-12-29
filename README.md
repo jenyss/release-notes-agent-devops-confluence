@@ -1,0 +1,1 @@
+# release-notes-autogen-devops-confluence
