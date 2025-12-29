@@ -1,1 +1,1 @@
-# release-notes-autogen-devops-confluence
+# Release Notes Agent - DevOps to confluence
