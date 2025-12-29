@@ -1,5 +1,5 @@
 # Release Notes Agent - DevOps to Confluence
 
-Powered by Google ADK, Azure DevOps MCP & Atlassian MCP
+_Powered by Google ADK, Azure DevOps MCP & Atlassian MCP_
 
 Coming soon...
