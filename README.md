@@ -50,7 +50,9 @@ Update these variables in the notebook to match your setup:
 
 ### How-To
 **TODO**
+
 How to get Confluence space and page IDs
+
 ```
 Use: https://<confluence-site>.atlassian.net/wiki/api/v2/spaces?keys=<space-key>
 Example: https://marmind-knowledgebase.atlassian.net/wiki/api/v2/spaces?keys=KB
