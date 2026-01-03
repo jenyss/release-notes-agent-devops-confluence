@@ -14,9 +14,9 @@ _Powered by Google ADK, Azure DevOps MCP & Atlassian MCP_
 
 ### Architecture
 
-**ticket_processor_agent**: Connects to the Azure DevOps MCP server, fetches work items, generates user‑friendly release notes, and writes all processed ticket data into a structured Excel file.
+**TicketProcessorAgent**: Connects to the Azure DevOps MCP server, fetches work items, generates user‑friendly release notes, and writes all processed ticket data into a structured Excel file.
 
-**confluence_publisher_agent**: Loads the generated Excel data, formats it into Confluence‑ready Markdown, connects to the Atlassian MCP server, and publishes the final release notes page into the correct Confluence space.
+**ConfluencePublisherAgent**: Loads the generated Excel data, formats it into Confluence‑ready Markdown, connects to the Atlassian MCP server, and publishes the final release notes page into the correct Confluence space.
 
 These two agents are orchestrated by SequentialAgent, which runs the workflow sequentially: first generating release notes, then publishing them.
 
