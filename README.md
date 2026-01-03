@@ -12,7 +12,7 @@ _Powered by Google ADK, Azure DevOps MCP & Atlassian MCP_
 4. **Save to Excel** - Stores all data incrementally in an Excel file (prevents data loss)
 5. **Publish to Confluence** - Creates a formatted Markdown page under the specified parent page
 
-### Architecture
+### Architectures
 
 **TicketProcessorAgent**: Connects to the Azure DevOps MCP server, fetches work items, generates user‑friendly release notes, and writes all processed ticket data into a structured Excel file.
 
