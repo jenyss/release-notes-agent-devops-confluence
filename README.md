@@ -51,8 +51,37 @@ Update these variables in the notebook to match your setup:
 ### How-To
 **TODO**
 How to get Confluence space and page IDs
+```
 Use: https://<confluence-site>.atlassian.net/wiki/api/v2/spaces?keys=<space-key>
 Example: https://marmind-knowledgebase.atlassian.net/wiki/api/v2/spaces?keys=KB
+```
+
+```
+{
+  "results": [
+    {
+      "spaceOwnerId": "712020:e59583ce-74ea-4967-9919-6d15e6ab4f51",
+      "homepageId": "327875",
+      "createdAt": "2025-06-25T07:27:18.843Z",
+      "authorId": "712020:e59583ce-74ea-4967-9919-6d15e6ab4f51",
+      "icon": null,
+      "description": null,
+      "status": "current",
+      "name": "Marmind Knowledge Base",
+      "key": "KB",
+      "id": "327684",
+      "type": "knowledge_base",
+      "_links": {
+        "webui": "/spaces/KB"
+      },
+      "currentActiveAlias": "KB"
+    }
+  ],
+  "_links": {
+    "base": "https://marmind-knowledgebase.atlassian.net/wiki"
+  }
+}
+```
 
 ```python
 await chat()
