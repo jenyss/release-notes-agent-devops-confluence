@@ -48,7 +48,7 @@ Update these variables in the notebook to match your setup:
 | `spaceId` | Confluence space ID (in agent instruction) |
 | `parentPageId` | Parent page ID for release notes (in agent instruction) |
 
-### Usage
+### How To
 ```python
 await chat()
 # Then type: "Create release notes and publish to Confluence"
