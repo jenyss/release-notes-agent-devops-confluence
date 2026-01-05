@@ -4,6 +4,9 @@ _Powered by Google ADK, Azure DevOps MCP & Atlassian MCP_
 
 **This agent automates release notes creation from Azure DevOps user stories and publishes them to Confluence.**
 
+**Coming soon...**
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube&style=for-the-badge)](https://youtu.be/dkxzehq6E8o)
+
 ### How It Works
 
 1. **Fetch Tickets** - Retrieves work items from a configured Azure DevOps query
