@@ -8,7 +8,7 @@ _Powered by Google ADK, Azure DevOps MCP & Atlassian MCP_
 
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
-### How It Works
+## How It Works
 
 1. **Fetch Tickets** - Retrieves work items from a configured Azure DevOps query
 2. **Extract Data** - Gets ticket details: ID, Title, Description, Release Date, Story Owner, Area, Customer, URL
@@ -16,7 +16,7 @@ If you have any questions or would like to collaborate, feel free to reach out t
 4. **Save to Excel** - Stores all data incrementally in an Excel file (prevents data loss)
 5. **Publish to Confluence** - Creates a formatted Markdown page under the specified parent page
 
-### Architecture
+## Architecture
 
 **TicketProcessorAgent**: Connects to the Azure DevOps MCP server, fetches work items, generates user‑friendly release notes, and writes all processed ticket data into a structured Excel file.
 
@@ -37,6 +37,7 @@ These two agents are orchestrated by SequentialAgent, which runs the workflow se
 │  └───────────────────┘  │     └───────────────────────┘     │
 └─────────────────────────┴───────────────────────────────────┘
 ```
+## How-To
 
 ### Prerequisites
 
@@ -45,6 +46,7 @@ These two agents are orchestrated by SequentialAgent, which runs the workflow se
 - **Azure DevOps Access** - Browser authentication triggered on first run
 - **Atlassian Cloud Access** - Browser authentication triggered on first run
 - **Environment Variables** - `GOOGLE_API_KEY` in `.env` file
+- **JupyterLab** - (installed inside the venv) to run this notebook
 
 ### Configuration
 
@@ -59,10 +61,8 @@ Update these variables in the notebook to match your setup:
 | `spaceId` | Confluence space ID (in agent instruction) |
 | `parentPageId` | Parent page ID for release notes (in agent instruction) |
 
-### How-To
-**TODO**
 
-How to get Confluence space and page IDs
+**How to get Confluence space and page IDs**
 
 ```
 Use: https://<confluence-site>.atlassian.net/wiki/api/v2/spaces?keys=<space-key>
