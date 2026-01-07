@@ -41,7 +41,7 @@ These two agents are orchestrated by SequentialAgent, which runs the workflow se
 
 ### Prerequisites
 
-- **Python 3.10+** with virtual environment
+- **Python 3.10+** 
 - **Node.js 18+** - Required for MCP servers (npx)
 - **Azure DevOps Access** - Browser authentication triggered on first run
 - **Atlassian Cloud Access** - Browser authentication triggered on first run
