@@ -22,7 +22,7 @@ If you have any questions or would like to collaborate, feel free to reach out t
 
 **ConfluencePublisherAgent**: Loads the generated Excel data, formats it into Confluence‑ready Markdown, connects to the Atlassian MCP server, and publishes the final release notes page into the correct Confluence space.
 
-These two agents are orchestrated by SequentialAgent, which runs the workflow sequentially: first generating release notes, then publishing them.
+These two agents are orchestrated by SequentialAgent, which runs the workflow sequentially: first generating release notes, then publishing them
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
